@@ -1235,6 +1235,9 @@
     }
 }
 @media (min-width: 1281px) {
+    html {
+        font-size: 14px;
+    }
     body > div:first-child > div:first-child {
         justify-content: space-evenly;
     }
@@ -1243,6 +1246,12 @@
     }
     body > div:first-child > div:last-child button {
         padding: 1.5% 0;
+        font-size: 1.3rem;
+        border-radius: 70px;
+        -webkit-border-radius: 70px;
+        -moz-border-radius: 70px;
+        -ms-border-radius: 70px;
+        -o-border-radius: 70px;
     }
     header nav ol {
         font-size: 1.6rem;
